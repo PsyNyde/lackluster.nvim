@@ -87,6 +87,7 @@ local highlight = function(theme, color)
                 spec.fg("Variable", theme.syntax.var),
                 spec.fg("Statement", theme.syntax.keyword),
                 spec.fg("Special", theme.syntax.special),
+                spec.ln("SpecialKey", "Special"),
                 spec.fg("Keyword", theme.syntax.keyword),
                 spec.ln("Conditional", "Keyword"),
                 spec.ln("Repeat", "Keyword"),
